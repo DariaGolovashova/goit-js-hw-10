@@ -6,14 +6,12 @@ import "izitoast/dist/css/iziToast.min.css";
 
 const inputDatePicker = document.querySelector('#datetime-picker');
 const startBtn = document.querySelector('[data-start]');
-const timerDisplay = document.querySelector(".timer");
 const daysLeft = document.querySelector('[data-days]');
 const hoursLeft = document.querySelector('[data-hours]');
 const minutesLeft = document.querySelector('[data-minutes]');
 const secondsLeft = document.querySelector('[data-seconds]');
 
 let userSelecteDate = null;
-let intervalBack = null;
 startBtn.disabled = true;
 
 flatpickr(inputDatePicker, {
