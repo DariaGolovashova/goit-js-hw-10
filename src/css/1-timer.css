@@ -1,0 +1,95 @@
+.back-link {
+  display: flex;
+  height: 24px;
+  width: 85px;
+  justify-content: center;
+  font-weight: 400;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 32px;
+}
+
+.date-container {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.date-input {
+  display: flex;
+  justify-content: center;
+}
+
+.date-title {
+  width: 272px;
+  height: 40px;
+  padding-left: 5px;
+  border-radius: 4px;
+  border: 1px solid #808080;
+  color: #000000;
+  margin-bottom: 32px;
+}
+
+.date-title:hover,
+.date-title:focus {
+  border: 1px solid #000000;
+}
+
+.date-title:active {
+  border: 1px solid #4e75ff;
+  columns: #000000;
+}
+
+.date-time-btn {
+  width: 75px;
+  height: 40px;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  padding: 8px 16px;
+  border: none;
+  background-color: #cfcfcf;
+  margin-left: 8px;
+}
+
+.date-time-btn:hover,
+.date-time-btn:focus {
+  background-color: #6c8cff;
+  color: #ffffff;
+}
+
+.date-time-btn:active {
+  background-color: #4e75ff;
+}
+
+.timer {
+  display: flex;
+  justify-content: center;
+  width: 346px;
+  height: 72px;
+  gap: 24px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+}
+.value {
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.label {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #2e2f42;
+  text-transform: uppercase;
+}
